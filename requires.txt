@@ -1,0 +1,14 @@
+Below are all imports used in this work.
+
+External:
+matplotlib 3.1.3
+numpy 1.19.2
+pandas 1.0.3
+scipy 1.4.1
+
+Python 3.7.7:
+csv
+pathlib
+sqlite3
+sys
+time
