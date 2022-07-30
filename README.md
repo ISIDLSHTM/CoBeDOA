@@ -12,3 +12,5 @@ Supplementary data and code for correlated beta dose optimisation investigation.
 6. Run Running\Objective_4\_Conduct_objective.py 
 
 All of these steps will require many hours of compute time. For steps 3-6 this can be reduced by reducing num_sims to lower value, though this will mean that your results may be more effected by stochastic effects and you will have reduced precision. 
+
+Data that were generated for use in the paper are in a seperate repo at github.com/ISIDLSHTM/CoBeDOA_Data
