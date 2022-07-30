@@ -41,11 +41,8 @@ for i, env in enumerate(environments):
     print(joins)
 
     joins = pd.DataFrame(joins)
-    pd.set_option("display.max_columns", 999)
-    pd.set_option("display.max_rows", 300)
     conn.close()
-    # pd.set_option('display.max_columns', None)
-    # pd.set_option('display.max_rows', None)
+    
     joins = joins.rename(columns={joins.columns[0]: 'individual_number',
                                   joins.columns[1]: 'actual_utility_at_predicted',
                                   joins.columns[2]: 'cumulative_regret',
