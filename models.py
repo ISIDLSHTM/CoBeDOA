@@ -349,12 +349,7 @@ class Latent_Quadratic_Model():
         self.pseudo_values = None
 
     def update_data_sizes(self):
-        data_sizes = np.zeros(self.number_of_levels - 1)
-        for data_index, data_value in enumerate(self.data_values):
-            data_value = data_value[0]
-            for model_index in useful_functions.model_ranger(data_value, self.number_of_levels):
-                data_sizes[model_index] += 1
-        self.data_sizes = data_sizes
+        pass
 
     def update_likelihood(self):
         pass
@@ -466,12 +461,7 @@ class Saturating_Model():
         self.pseudo_values = None
 
     def update_data_sizes(self):
-        data_sizes = np.zeros(self.number_of_levels - 1)
-        for data_index, data_value in enumerate(self.data_values):
-            data_value = data_value[0]
-            for model_index in useful_functions.model_ranger(data_value, self.number_of_levels):
-                data_sizes[model_index] += 1
-        self.data_sizes = data_sizes
+        pass
 
     def update_likelihood(self):
         pass
@@ -581,12 +571,7 @@ class Saturating_2D_Model():
         self.pseudo_values = None
 
     def update_data_sizes(self):
-        data_sizes = np.zeros(self.number_of_levels - 1)
-        for data_index, data_value in enumerate(self.data_values):
-            data_value = data_value[0]
-            for model_index in useful_functions.model_ranger(data_value, self.number_of_levels):
-                data_sizes[model_index] += 1
-        self.data_sizes = data_sizes
+        pass
 
     def update_likelihood(self):
         pass
@@ -695,12 +680,7 @@ class Latent_Quadratic_Model_2D():
         self.pseudo_values = None
 
     def update_data_sizes(self):
-        data_sizes = np.zeros(self.number_of_levels - 1)
-        for data_index, data_value in enumerate(self.data_values):
-            data_value = data_value[0]
-            for model_index in useful_functions.model_ranger(data_value, self.number_of_levels):
-                data_sizes[model_index] += 1
-        self.data_sizes = data_sizes
+        pass
 
     def update_likelihood(self):
         pass
@@ -824,12 +804,7 @@ class Latent_Quadratic_Model_3D():
         self.pseudo_values = None
 
     def update_data_sizes(self):
-        data_sizes = np.zeros(self.number_of_levels - 1)
-        for data_index, data_value in enumerate(self.data_values):
-            data_value = data_value[0]
-            for model_index in useful_functions.model_ranger(data_value, self.number_of_levels):
-                data_sizes[model_index] += 1
-        self.data_sizes = data_sizes
+        pass
 
     def update_likelihood(self):
         pass
